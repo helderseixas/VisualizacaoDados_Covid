@@ -9,7 +9,7 @@ import pandas as pd
 
 app = Dash(__name__)
 
-# assume you have a "long-form" data frame
+# assume you have a "long-form" dados frame
 # see https://plotly.com/python/px-arguments/ for more options
 df = pd.DataFrame({
     "Fruit": ["Apples", "Oranges", "Bananas", "Apples", "Oranges", "Bananas"],
@@ -23,7 +23,7 @@ app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
 
     html.Div(children='''
-        Dash: A web application framework for your data.
+        Dash: A web application framework for your dados.
     '''),
 
     dcc.Graph(
